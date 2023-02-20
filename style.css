@@ -15,22 +15,73 @@ h1{
     font-weight: bold;
     line-height: 2;
     margin: auto auto 50px auto;
+    color: #40514e;
 
 }
 
 h3{
     font-size: 1.7rem;
     font-weight: normal;
-    
+    color: #40514e;
 }
 
 h4{
     display: inline;
+    color: #40514e;
 }
+
+/* --------------------------nav bar------------------------------ */
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+  }
+
+nav{
+    background-color: #36a182;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 5px 60px rgba(0,0,0,0.08);
+}
+
+li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #f4ece4;
+    padding: 8px;   
+    margin: 0;
+}
+
+a:hover{
+    color: #40514e;
+    transition: .5s;
+    
+}
+
+.logo{
+    color:#f4ece4;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+/* --------------------------nav bar------------------------------ */
+
 
 .name{
     font-family: 'Dancing Script', cursive;
 }
+
 
 .introduction{
     width: 80%;
@@ -47,7 +98,7 @@ h4{
     font-size: 2.5rem;
 }
 
-.about{
+#about{
     background-color: #36a182;
     padding: 50px 0 ;
     line-height: 2;
@@ -58,9 +109,11 @@ h4{
 .discription-me{
     width: 50%;
     margin: 50px auto;
+    color: #f4ece4;
+
 }
 
-.skills{
+#skills{
     background-color: #f4f4f4;
     width: 90%;
     margin: 0 auto 200px;
@@ -73,12 +126,8 @@ h4{
     line-height: 2;
 }
 
-.my-works{
-    background-color: #f4f4f4;
-    width: 90%;
-    margin: 0 auto 200px;
-    padding: 50px 0;
-}
+
+
 
 /* ------------------------------images------------------------------------- */
 .skills-img{
