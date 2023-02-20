@@ -1,0 +1,90 @@
+body{
+    background-color:#f4ece4;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+em{
+    color: #36a182;
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    margin: auto auto 50px auto;
+
+}
+
+h3{
+    font-size: 1.7rem;
+    font-weight: normal;
+    
+}
+
+h4{
+    display: inline;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+}
+
+.introduction{
+    width: 80%;
+    position: relative;
+    margin: 100px auto 50px auto;
+}
+
+.me{
+    width: 20%;
+
+}
+
+.web-developer{
+    font-size: 2.5rem;
+}
+
+.about{
+    background-color: #36a182;
+    padding: 50px 0 ;
+    line-height: 2;
+    margin: 100px 0 200px 0;
+
+}
+
+.discription-me{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.skills{
+    background-color: #f4f4f4;
+    width: 90%;
+    margin: 0 auto 200px;
+    padding: 50px 0;
+}
+.skill-row{
+    width: 60%;
+    margin: 100px auto 10px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.my-works{
+    background-color: #f4f4f4;
+    width: 90%;
+    margin: 0 auto 200px;
+    padding: 50px 0;
+}
+
+/* ------------------------------images------------------------------------- */
+.skills-img{
+    width: 60%;
+    margin-right: 20px;
+    display: block;
+    margin: auto;
+}
+
