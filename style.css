@@ -126,8 +126,22 @@ a:hover{
     line-height: 2;
 }
 
+#projects{
+    background-color: #f4f4f4;
+    width: 90%;
+    margin: 0 auto 200px;
+    padding: 50px 0;
+}
 
+.example{
+    background-color:  #f4f4f4;
+    height: 300px;
+    margin: 10px 0;
+}
 
+.example-img{
+    width: 30%;
+}
 
 /* ------------------------------images------------------------------------- */
 .skills-img{
@@ -137,3 +151,75 @@ a:hover{
     margin: auto;
 }
 
+.projects-items{
+    padding: 3rem;
+}
+
+.projects-img{
+    width: 100%;
+    margin-right: 20px;
+    display: block;
+    margin: auto;
+}
+
+
+.btn {
+    background: #36a182;
+    background-image: -webkit-linear-gradient(top, #36a182, #36a182);
+    background-image: -moz-linear-gradient(top, #36a182, #36a182);
+    background-image: -ms-linear-gradient(top, #36a182, #36a182);
+    background-image: -o-linear-gradient(top, #36a182, #36a182);
+    background-image: linear-gradient(to bottom, #36a182, #36a182);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    margin: 200px 0px;
+  }
+  
+  .btn:hover {
+    color: #f4f4f4;
+    background: #2f9173;
+    background-image: -webkit-linear-gradient(top, #2f9173, #2f9173);
+    background-image: -moz-linear-gradient(top, #2f9173, #2f9173);
+    background-image: -ms-linear-gradient(top, #2f9173, #2f9173);
+    background-image: -o-linear-gradient(top, #2f9173, #2f9173);
+    background-image: linear-gradient(to bottom, #2f9173, #2f9173);
+    text-decoration: none;
+  }
+
+  .skill-discription{
+    margin: 40px 0;
+  }
+
+  .contact-container{
+    background-color: #CBEDD5;
+    padding: 50px 0 80px;
+  }
+  #contact{
+    margin: auto;
+    width: 70%;
+  }
+
+.form-control{
+    margin: 20px;
+}
+
+input{
+    width: 60%;
+    height: 2rem;
+  }
+
+textarea{
+    width: 60%;
+    height: 7rem;
+}
+
+.btn.send-btn{
+    margin:10px;
+
+}
