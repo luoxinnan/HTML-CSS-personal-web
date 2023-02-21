@@ -19,6 +19,7 @@ h1{
 
 }
 
+
 h3{
     font-size: 1.7rem;
     font-weight: normal;
@@ -61,7 +62,7 @@ a{
 }
 
 a:hover{
-    color: #40514e;
+    color:#40514e;
     transition: .5s;
     
 }
@@ -86,7 +87,7 @@ a:hover{
 .introduction{
     width: 80%;
     position: relative;
-    margin: 100px auto 50px auto;
+    margin: 170px auto 50px auto;
 }
 
 .me{
@@ -102,7 +103,7 @@ a:hover{
     background-color: #36a182;
     padding: 50px 0 ;
     line-height: 2;
-    margin: 100px 0 200px 0;
+    margin: 100px 0 130px 0;
 
 }
 
@@ -116,7 +117,7 @@ a:hover{
 #skills{
     background-color: #f4f4f4;
     width: 90%;
-    margin: 0 auto 200px;
+    margin: 0 auto 150px;
     padding: 50px 0;
 }
 .skill-row{
@@ -129,8 +130,8 @@ a:hover{
 #projects{
     background-color: #f4f4f4;
     width: 90%;
-    margin: 0 auto 200px;
-    padding: 50px 0;
+    margin: 0 auto 150px;
+    padding: 80px 0;
 }
 
 .example{
@@ -221,5 +222,46 @@ textarea{
 
 .btn.send-btn{
     margin:10px;
+}
+.btn.send-btn:hover{
+    margin:10px;
+    color:#ffffff;
+    transition: .1s;
+}
 
+
+
+hr{
+    border-style:none;
+    border-top: dotted;
+    width: 7%;
+    border-top-style: dotted;
+    border-color:#97DECE;
+    border-width: 7px;
+    margin-bottom: 100px;
+}
+
+.bottom-container{
+    background-color:#2f9173;
+    padding: 50px 0 20px;
+    line-height: 2;
+  }
+
+.copy-right{
+    color: #f4ece4;
+}
+
+
+.contact-feedback{
+    padding: 50px 0 0px;
+    height: 300px;
+    background-color: #2f9173;
+    margin: 0 0 30px 0 ;
+}
+
+
+.feedback{
+    color: #f4ece4;
+    margin: 50px 100px;
+    line-height: 2;
 }
