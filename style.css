@@ -3,6 +3,7 @@ body{
     text-align: center;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 em{
@@ -87,7 +88,8 @@ a:hover{
 .introduction{
     width: 80%;
     position: relative;
-    margin: 170px auto 50px auto;
+    padding: 10rem 0 0;
+    margin: 0px auto 50px auto;
 }
 
 .me{
@@ -265,3 +267,20 @@ hr{
     margin: 50px 100px;
     line-height: 2;
 }
+
+.bg{
+    width: 100%;
+    position: absolute;
+}
+
+.paperOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: multiply;
+    background-repeat: repeat;
+    pointer-events: none;
+    background-image: url("/img/texture.png");
+  }
